@@ -1,0 +1,5 @@
+# ignore .env file in git. This ensures you do not push your secret keys to github and exposing them.
+.env
+
+# ignore node modules. You dont want to push your node modules to github.
+node_modules/
